@@ -30,21 +30,21 @@
       }
     </style>
 
-    
+
     <!-- Custom styles for this template -->
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
   </head>
   <body>
-    
+
 <div class="container">
   <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
 <!--    left    logo -->
-        <a class="navbar-brand" href="">
-            <img src="assets/brand/brand_jz2.png" width="80vw" height="100%" alt="" title="Back to Design World">
+        <a class="navbar-brand" href="https://kimonazj.github.io/">
+            <img src="assets/brand/brand_jz2.png" width="80vw" height="100%" alt="" title="Back to my main personal website">
         </a>
       </div>
       <div class="col-4 text-center">
@@ -52,117 +52,80 @@
       </div>
       <div class="col-4 d-flex justify-content-end align-items-center">
 <!--     right   logo -->
-        <a class="navbar-brand" href="https://kimonazj.github.io">
-            <img src="assets/brand/brand_jz.png" width="80vw" height="100%" alt="" title="Back to Main Personal Website">
+        <a class="navbar-brand" href="">
+            <img src="assets/brand/brand_jz.png" width="80vw" height="100%" alt="" title="">
         </a>
       </div>
     </div>
   </header>
 
+<!--    start nav bar for each section  -->
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
-      <a class="p-2 link-secondary" href="fitrec.html">BUFitrec (UI/UX)</a>
-      <a class="p-2 link-secondary" href="elephantedu.html">ElephantEdu (UI/UX)</a>
-      <a class="p-2 link-secondary" href="pickacourse.html">PikaCourse (Frontend)</a>
-<!--      <a class="p-2 link-secondary" href="#">TheFakeBagel (UX)</a>-->
-      <a class="p-2 link-secondary" href="#">UIUX inClass</a>
-<!--      <a class="p-2 link-secondary" href="#">HiByeMom (Book)</a>-->
-<!--      <a class="p-2 link-secondary" href="#">Logo Design</a>-->
-<!--      <a class="p-2 link-secondary" href="#">Portfolio Design</a>-->
+        <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#devdesign" role="button" aria-expanded="false" aria-controls="devdesign">Dev&Design</a>
+        <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#design" role="button" aria-expanded="false" aria-controls="design">Design</a>
+        <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#dev" role="button" aria-expanded="false" aria-controls="dev">Dev</a>
+        <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#other" role="button" aria-expanded="false" aria-controls="other">Other</a>
     </nav>
   </div>
+    <div class="row row-cols-1 row-cols-md-4">
+        <div class="col">
+            <div class="collapse multi-collapse" id="devdesign">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="redesign.html">Responsive Redesign</a>
+                    <a class="p-2 link-info" href="">CDL Frontend Developer</a>
+                    <a class="p-2 link-info" href="">Android Apps</a>
+                    <a class="p-2 link-info" href="portfoliodesign.html">Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="design">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="elephantedu.html">Elephant Edu</a>
+                    <a class="p-2 link-info" href="fitrec.html">BU Fitrec</a>
+                    <a class="p-2 link-info" href="">Toko App</a>
+                    <a class="p-2 link-info" href="uiuxsmall.html">Design Challenges</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="dev">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="pickacourse.html">PikaCourse</a>
+                    <a class="p-2 link-info" href="">Calendar Frontend Dev</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="other">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="">Hi Bye Mom</a>
+                    <a class="p-2 link-info" href="">Art Works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    end of nav bar for each section -->
 </div>
 
 <main class="container">
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <h2 class="pt-5 blog-post-title text-start">Hi there, I'm Ji (Anna) Zhang</h2>
+
+    <div class="row">
+        <div class="col-sm">
+            <br>
+            <p> I'm a <b>UIUX designer</b> and a <b>frontend engineer</b> who is passionate about
+                creating beautiful and practical digital experiences. Currently a <b>first year Computer Science
+                    master</b> student @ <b>Brown University</b>.
+            </p>
+            <p>Please to go through all my featured projects!</p>
+        </div>
+        <div class="col-sm">
+            <img src="assets/brand/self_img.jpg" width="100%">
+        </div>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-<!--        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
-        <img class="bd-placeholder-img" width="100%" height="10px" src="assets/brand/yakima_cover.png">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Responsive Redesign</h1>
-            <p>Help a local theater redesign its home page </p>
-            <a class="btn" style="background-color:blue; color: white" href="redesign.html">Digging in</a>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img class="bd-placeholder-img" width="100%" height="10px" src="assets/brand/elephant_cover.png">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1 >Elephant Edu</h1>
-            <p>A sexual health education app for parents</p>
-            <a class="btn" style="background-color:#FFA450; color:white;" href="elephantedu.html">Learn more</a>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-          <img class="bd-placeholder-img" width="100%" height="10px" src="assets/brand/picka_cover.png">
-        <div class="container">
-          <div class="carousel-caption text-end">
-            <h1>PickaCourse</h1>
-            <p>The missing social networking platform for college students</p>
-            <a class="btn" style="background-color:rebeccapurple; color:white;" href="elephantedu.html" href="pickacourse.html">Pika-chu!</a>
-          </div>
-        </div>
-      </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-<!--  <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">-->
-<!--    <div class="col-md-6 px-0">-->
-<!--      <h1 class="display-4 fst-italic">The Secrets Behind the Buttons</h1>-->
-<!--      <p class="lead my-3">Absolutely no one, can figure out how to operate the CIT elevator's door. A bad design could take someone's life in an emergency. Why such bad design exits? How to improve it? How students think of it?</p>-->
-<!--      <p class="lead mb-0"><a href="persona_stb.html" class="text-white fw-bold">Continue reading...</a></p>-->
-<!--    </div>-->
-<!--  </div>-->
-
-<!--  <div class="row mb-2">-->
-<!--    <div class="col-md-6">-->
-<!--      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">-->
-<!--        <div class="col p-4 d-flex flex-column position-static">-->
-<!--          <strong class="d-inline-block mb-2 text-primary">HW2</strong>-->
-<!--          <h3 class="mb-0">HW TITLE</h3>-->
-<!--          <div class="mb-1 text-muted">IN THE FUTURE</div>-->
-<!--          <p class="card-text mb-auto">Coming Soon</p>-->
-<!--          <a href="#" class="stretched-link">Continue reading</a>-->
-<!--        </div>-->
-<!--        <div class="col-auto d-none d-lg-block">-->
-<!--          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>-->
-
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--    <div class="col-md-6">-->
-<!--      <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">-->
-<!--        <div class="col p-4 d-flex flex-column position-static">-->
-<!--          <strong class="d-inline-block mb-2 text-success">HW3</strong>-->
-<!--          <h3 class="mb-0">HW TITLE</h3>-->
-<!--          <div class="mb-1 text-muted">IN THE FUTURE</div>-->
-<!--          <p class="mb-auto">Coming soon</p>-->
-<!--          <a href="#" class="stretched-link">Continue reading</a>-->
-<!--        </div>-->
-<!--        <div class="col-auto d-none d-lg-block">-->
-<!--          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>-->
-
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-  </div>
 
   <div class="row g-5">
     <div class="col-md-8">
@@ -171,24 +134,60 @@
 <!--      </h3>-->
 
       <article class="blog-post">
-        <h2 class="blog-post-title text-center">Welcome to My Design World</h2>
-<!--        <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>-->
-        <h3 class="text-center">Hi there, I'm Ji (Anna) Zhang</h3>
-          <div class="row">
-                <div class="col-sm">
-                    <br>
-                    <p> I'm a <b>UIUX designer</b> and a <b>frontend engineer</b> who is passionate about
-                        creating beautiful and practical digital experiences. Currently a <b>first year Computer Science
-                            master</b> student @ <b>Brown University</b>.
-                    </p>
-                    <p>Please to go through all my featured projects!</p>
-                </div>
-                <div class="col-sm">
-                    <img src="assets/brand/self_img.jpg" width="100%">
-                </div>
-            </div>
-              <h3 class="text-center">My Featured Projects</h3>
-              <br>
+              <h3 class="text-center pb-3">My Featured Projects</h3>
+
+<!--          start of carousel  -->
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <!--        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
+                      <img class="bd-placeholder-img" width="100%" height="10px" src="assets/brand/yakima_cover_1.png">
+                      <div class="container">
+                          <div class="carousel-caption text-center">
+                              <h1>Responsive Redesign</h1>
+                              <p>Help a local theater redesign its home page </p>
+                              <a class="btn" style="background-color:blue; color: white" href="redesign.html">Digging in</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img class="bd-placeholder-img" width="100%" height="10px" src="assets/brand/elephant_cover_1.png">
+                      <div class="container">
+                          <div class="carousel-caption text-start">
+                              <h1 >Elephant Edu</h1>
+                              <p>A sexual health education app for parents</p>
+                              <a class="btn" style="background-color:#FFA450; color:white;" href="elephantedu.html">Learn more</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img class="bd-placeholder-img" width="100%" height="10px" src="assets/brand/picka_cover_1.png">
+                      <div class="container">
+                          <div class="carousel-caption text-end">
+                              <h1>PickaCourse</h1>
+                              <p>The missing social media for college students</p>
+                              <a class="btn" style="background-color:rebeccapurple; color:white;" href="pickacourse.html">Pika-chu!</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+<!--          end of the carousel -->
+          <br>
+          <h3 class="text-center py-3">Browse All</h3>
                   <h5>Dev & Design</h5>
                   <div class="row ">
                       <div class="col-sm pb-2">
@@ -197,21 +196,43 @@
                               <div class="card-body">
                                   <h5 class="card-title">Redesign A Responsive Website</h5>
                                   <p class="card-text">Redesign and rebuild Yakima Theater's website with Balsamiq, Figma, and Bootstrap5 </p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <a href="#" class="btn btn-primary">View more</a>
                               </div>
                           </div>
                       </div>
                       <div class="col-sm">
-                          <div class="card" >
-                              <img class="card-img-top" src="assets/project_pic/portfolio.png" alt="Card2 image">
+                          <div class="card pb-2" >
+                              <img class="card-img-top" src="assets/project_pic/CDL_cover.png" alt="Card2 image">
                               <div class="card-body">
-                                  <h5 class="card-title">Portfolio Building</h5>
-                                  <p class="card-text">Design and build personal website for myself and others with JavaScript, CSS, HTML, and Bootstrap5.</p>
-                                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                                  <h5 class="card-title">Climate Development Lab Frontend Engineer</h5>
+                                  <p class="card-text">Design and develop the web page for CDL at Brown with Tailwind and Javascript.</p>
+                                  <a href="#" class="btn btn-primary">Coming Soon</a>
                               </div>
                           </div>
                       </div>
                   </div>
+                    <div class="row">
+                        <div class="col-sm pb-2">
+                            <div class="card" >
+                                <img class="card-img-top" src="assets/project_pic/android_cover.png" alt="Card2 image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Simple Android Apps</h5>
+                                    <p class="card-text">Design and build Android apps with android studio in Java.</p>
+                                    <a href="#" class="btn btn-primary">Check it out</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm pb-2">
+                            <div class="card" >
+                                <img class="card-img-top" src="assets/project_pic/portfolio.png" alt="Card2 image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Portfolio Building</h5>
+                                    <p class="card-text">Design and build personal website for myself and others with JavaScript, CSS, HTML, and Bootstrap5.</p>
+                                    <a href="#" class="btn btn-primary">See Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                   <br>
                   <h5>Design</h5>
                   <div class="row">
@@ -225,17 +246,40 @@
                               </div>
                           </div>
                       </div>
-                      <div class="col-sm">
+                      <div class="col-sm pb-2">
                           <div class="card">
                               <img class="card-img-top" src="assets/fitrec/fitrec_lofi.png" alt="Card4 image">
                               <div class="card-body">
                                   <h5 class="card-title">App Interface Design for BU Fitrec</h5>
-                                  <p class="card-text">Design an app that can improve BU gym user experience with Balsamiq. </p>
-                                  <a href="https://github.com/CS411-Calendar/App" class="btn btn-primary">View Code in Github</a>
+                                  <p class="card-text">Ideate an app that can improve BU gym user experience with Balsamiq. </p>
+                                  <a href="https://github.com/CS411-Calendar/App" class="btn btn-primary">More</a>
                               </div>
                           </div>
                       </div>
                   </div>
+                    <div class="row">
+                        <div class="col-sm pb-2">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/project_pic/toko_cover.png" alt="Toko Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">App Interface Design For a Startup</h5>
+                                    <p class="card-text">Design the interface for an English learning App. </p>
+                                    <a href="#" class="btn btn-primary">Coming Soon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <div class="card">
+                                <img class="card-img-top" src="assets/project_pic/uiux_cover.png" alt="UIUX in calss Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">Small Design Challenges</h5>
+                                    <p class="card-text">Some practice designs in class</p>
+                                    <a href="#uiuxsmall.html" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                   <br>
                   <h5>Dev</h5>
                   <div class="row">
@@ -245,7 +289,7 @@
                                   <div class="card-body">
                                       <h5 class="card-title">PickaCourse Frontend Developer</h5>
                                       <p class="card-text">Built a Web app from scratch with Ant Design, JavaScript, React, CSS, and HTML. Made API calls to retrieve backend data.</p>
-                                      <a href="#" class="btn btn-primary">Go somewher</a>
+                                      <a href="pickacourse.html" class="btn btn-primary">Pika-chu!</a>
                                   </div>
                               </div>
                           </div>
@@ -260,6 +304,30 @@
                               </div>
                           </div>
                   </div>
+          <br>
+          <h5>Other</h5>
+          <div class="row">
+              <div class="col-sm pb-2">
+                  <div class="card">
+                      <img class="card-img-top" src="assets/project_pic/book_cover.png" alt="Card3 image">
+                      <div class="card-body">
+                          <h5 class="card-title">Hi Bye Mom</h5>
+                          <p class="card-text">A book for all the lost children.</p>
+                          <a href="pickacourse.html" class="btn btn-primary">Read Now</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-sm">
+                  <div class="card">
+                      <img class="card-img-top" src="assets/project_pic/art_cover.png" alt="Card4 image">
+                      <div class="card-body">
+                          <h5 class="card-title">Art Works</h5>
+                          <p class="card-text">Some art works I did in my free time</p>
+                          <a href="https://github.com/CS411-Calendar/App" class="btn btn-primary">Browse All</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
 
       </article>
 
@@ -275,34 +343,12 @@
         </div>
 
         <div class="p-4">
-          <h4 class="fst-italic">All Projects</h4>
-          <ol class="list-unstyled">
-              <li><i class='far fa-star'></i><a href="fitrec.html">BUFitrec (UI/UX)</a></li>
-              <li><i class='far fa-star'></i><a href="elephantedu.html">ElephantEdu (UI/UX)</a></li>
-              <li><i class='far fa-star'></i><a href="pickacourse.html">PikaCourse (Frontend)</a></li>
-              <li><i class='far fa-star'></i><a href="#">UIUX Small Projects</a></li>
-            <li><a href="fakebagel.html">The Fake Bagel Project (UX)</a></li>
-            <li><a href="hibyemom.html">Hi Bye Mom (Children's Book)</a></li>
-            <li><a href="logodesign.html">Logo Design (Art)</a></li>
-            <li><a href="portfoliodesign.html">Portfolio Design (Frontend)</a></li>
-<!--            <li><a href="#">November 2020</a></li>-->
-<!--            <li><a href="#">October 2020</a></li>-->
-<!--            <li><a href="#">September 2020</a></li>-->
-<!--            <li><a href="#">August 2020</a></li>-->
-<!--            <li><a href="#">July 2020</a></li>-->
-<!--            <li><a href="#">June 2020</a></li>-->
-<!--            <li><a href="#">May 2020</a></li>-->
-<!--            <li><a href="#">April 2020</a></li>-->
-          </ol>
-        </div>
-
-        <div class="p-4">
           <h4 class="fst-italic">Let's Get Connected</h4>
           <ol class="list-unstyled">
             <li><a class="smsetting far fa-file-alt fa-lg pb-2" href="assets/brand/anna_res_1023.pdf" target="_blank" style="text-decoration: none;"> Resume</a></li>
             <li><a class="smsetting fab fa-linkedin-in fa-lg pb-2" href="https://www.linkedin.com/in/anna-ji-zhang/" target="_blank" style="text-decoration: none; "> LinkedIn </a></li>
             <li><a class="smsetting fab fa-github fa-lg pb-2" title="GitHub" href="https://github.com/kimonazj" target="_blank" style="text-decoration: none; "> GitHub</a> </li>
-              <li><a class="smsetting fab fa-fort-awesome fa-lg" title="Website" href="https://github.com/kimonazj" target="_blank" style="text-decoration: none;"> MainPersonalWebsite</a> </li>
+              <li><a class="smsetting fab fa-fort-awesome fa-lg" title="Website" href="https://kimonazj.github.io/" target="_blank" style="text-decoration: none;"> MainPersonalWebsite</a> </li>
           </ol>
         </div>
       </div>
@@ -314,11 +360,12 @@
 <footer class="blog-footer">
   <p>Built with Love. Copy right reserved.</p>
   <p>
-    <a href="index.html">Back to top</a>
+    <a href="index.html">Back to home</a>
   </p>
 </footer>
+<!--for carousel-->
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-    
+
   </body>
 </html>
