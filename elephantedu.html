@@ -61,18 +61,54 @@
         </div>
     </header>
 
+    <!--    start nav bar for each section  -->
     <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-            <a class="p-2 link-secondary" href="fitrec.html">BUFitrec (UI/UX)</a>
-            <a class="p-2 link-secondary" href="elephantedu.html">ElephantEdu (UI/UX)</a>
-            <a class="p-2 link-secondary" href="pickacourse.html">PikaCourse (Frontend)</a>
-            <!--      <a class="p-2 link-secondary" href="#">TheFakeBagel (UX)</a>-->
-            <a class="p-2 link-secondary" href="uiuxsmall.html">UIUX inClass</a>
-            <!--      <a class="p-2 link-secondary" href="#">HiByeMom (Book)</a>-->
-            <!--      <a class="p-2 link-secondary" href="#">Logo Design</a>-->
-            <!--      <a class="p-2 link-secondary" href="#">Portfolio Design</a>-->
+            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#devdesign" role="button" aria-expanded="false" aria-controls="devdesign">Dev&Design</a>
+            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#design" role="button" aria-expanded="false" aria-controls="design">Design</a>
+            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#dev" role="button" aria-expanded="false" aria-controls="dev">Dev</a>
+            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#other" role="button" aria-expanded="false" aria-controls="other">Other</a>
         </nav>
     </div>
+    <div class="row row-cols-1 row-cols-md-4">
+        <div class="col">
+            <div class="collapse multi-collapse" id="devdesign">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="redesign.html">Responsive Redesign</a>
+                    <a class="p-2 link-info" href="">CDL Frontend Developer</a>
+                    <a class="p-2 link-info" href="">Android Apps</a>
+                    <a class="p-2 link-info" href="portfoliodesign.html">Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="design">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="elephantedu.html">Elephant Edu</a>
+                    <a class="p-2 link-info" href="fitrec.html">BU Fitrec</a>
+                    <a class="p-2 link-info" href="">Toko App</a>
+                    <a class="p-2 link-info" href="uiuxsmall.html">Design Challenges</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="dev">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="pickacourse.html">PikaCourse</a>
+                    <a class="p-2 link-info" href="calendar.html">Calendar Frontend Dev</a>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="collapse multi-collapse" id="other">
+                <div class="card card-body">
+                    <a class="p-2 link-info" href="hibyemom.html">Hi Bye Mom</a>
+                    <a class="p-2 link-info" href="">Art Works</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    end of nav bar for each section -->
 </div>
 
 <main class="container">
@@ -256,7 +292,7 @@
         <a href="index.html">Back to home page</a>
     </p>
 </footer>
-
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 
 </body>

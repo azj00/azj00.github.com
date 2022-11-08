@@ -61,15 +61,20 @@
 
 <!--    start nav bar for each section  -->
   <div class="nav-scroller py-1 mb-2">
+    <!-- scrollable nav bar -->
     <nav class="nav d-flex justify-content-between">
+        <!-- collapse the cards and expand them if clicked-->
         <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#devdesign" role="button" aria-expanded="false" aria-controls="devdesign">Dev&Design</a>
         <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#design" role="button" aria-expanded="false" aria-controls="design">Design</a>
         <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#dev" role="button" aria-expanded="false" aria-controls="dev">Dev</a>
         <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#other" role="button" aria-expanded="false" aria-controls="other">Other</a>
     </nav>
   </div>
+    <!-- nav bar expand cards; display in 4 columns if the screen size is larger than medium, otherwise stacks the cards in one column -->
     <div class="row row-cols-1 row-cols-md-4">
+        <!-- display each card separately in a card -->
         <div class="col">
+            <!-- the development and design card -->
             <div class="collapse multi-collapse" id="devdesign">
                 <div class="card card-body">
                     <a class="p-2 link-info" href="redesign.html">Responsive Redesign</a>
@@ -80,6 +85,7 @@
             </div>
         </div>
         <div class="col">
+            <!-- the design card -->
             <div class="collapse multi-collapse" id="design">
                 <div class="card card-body">
                     <a class="p-2 link-info" href="elephantedu.html">Elephant Edu</a>
@@ -93,14 +99,14 @@
             <div class="collapse multi-collapse" id="dev">
                 <div class="card card-body">
                     <a class="p-2 link-info" href="pickacourse.html">PikaCourse</a>
-                    <a class="p-2 link-info" href="">Calendar Frontend Dev</a>
+                    <a class="p-2 link-info" href="calendar.html">Calendar Frontend Dev</a>
                 </div>
             </div>
         </div>
         <div class="col">
             <div class="collapse multi-collapse" id="other">
                 <div class="card card-body">
-                    <a class="p-2 link-info" href="">Hi Bye Mom</a>
+                    <a class="p-2 link-info" href="hibyemom.html">Hi Bye Mom</a>
                     <a class="p-2 link-info" href="">Art Works</a>
                 </div>
             </div>
@@ -129,9 +135,7 @@
 
   <div class="row g-5">
     <div class="col-md-8">
-<!--      <h3 class="pb-4 mb-4 fst-italic border-bottom">-->
-<!--        some title-->
-<!--      </h3>-->
+
 
       <article class="blog-post">
               <h3 class="text-center pb-3">My Featured Projects</h3>
@@ -299,7 +303,7 @@
                                   <div class="card-body">
                                       <h5 class="card-title">Calendar Frontend Developer</h5>
                                       <p class="card-text">Built a Web app from scratch with JavaScript, React, CSS, and HTML. Made API calls to retrieve backend data.</p>
-                                      <a href="https://github.com/CS411-Calendar/App" class="btn btn-primary">View Code in Github</a>
+                                      <a href="calendar.html" class="btn btn-primary">View more</a>
                                   </div>
                               </div>
                           </div>
@@ -313,7 +317,7 @@
                       <div class="card-body">
                           <h5 class="card-title">Hi Bye Mom</h5>
                           <p class="card-text">A book for all the lost children.</p>
-                          <a href="#" class="btn btn-primary">Read Now</a>
+                          <a href="hibyemom.html" class="btn btn-primary">Read Now</a>
                       </div>
                   </div>
               </div>
