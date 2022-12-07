@@ -11,8 +11,9 @@
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-  font-size: 2.25rem;
+  /*font-family: "Playfair Display", Georgia, "Times New Roman", serif!*rtl:Amiri, Georgia, "Times New Roman", serif*!;*/
+  font-family:"Joti One", sans-serif;
+  font-size: 13rem;
   text-decoration: none;
 }
 @media (max-width: 768px) {
@@ -26,7 +27,8 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  /*font-family:"Joan", sans-serif;*/
+  /*font-family: "Playfair Display", Georgia, "Times New Roman", serif!*rtl:Amiri, Georgia, "Times New Roman", serif*!;*/
 }
 
 .display-4 {
@@ -124,7 +126,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-post-title {
   margin-bottom: .25rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family:"Joti One", sans-serif;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -135,11 +138,19 @@ h1, h2, h3, h4, h5, h6 {
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #727272;
+  padding: 3rem 0;
+  color: white;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: black;
   border-top: .05rem solid #e5e5e5;
+}
+.blog-footer a, span{
+  color: deepskyblue;
+}
+.blog-footer h6{
+  font-family: "Joti One";
+  font-size: 20px;
+  font-weight: bold;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
@@ -189,7 +200,71 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
   }
 }
+.selected-img{
+  height:300px
+}
+.selected-card{
+  height:500px;
+  font-family: "Comic Sans MS";
+}
+.selected-card h2{
+  font-family: "Joti One"
+}
+.selected-card p{
+  font-size: 18px
+}
+.selected-card a{
+  font-size: 15px
+}
+.yakima-card:hover{
+  color: royalblue;
+}
+.elephant-card:hover{
+  color: #FFA450;
+}
+.toko-card:hover{
+  color: deepskyblue;
+}
+.pika-card:hover{
+  color:rebeccapurple;
+}
 
 .other_projects i{
   color: black;
+}
+.all-card{
+  height: 350px;
+  font-family: "Comic Sans MS";
+}
+.all-card a{
+  font-family: "Joan"
+}
+.all-card img{
+  height: 200px
+}
+.all-card:hover{
+  font-weight: bold;
+}
+.self-intro1{
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  font-weight: bold;
+}
+.jotione{
+  font-family: "Joti One"
+}
+.comicsans{
+  font-family: "Comic Sans MS"
+}
+.joan{
+  font-family: "Joan"
+}
+.navbar-brand{
+  font-family:"Joti One"
+}
+.navbar-brand:hover{
+  text-decoration: underline;
+}
+.section-title{
+  font-family: "Joti One";
 }
