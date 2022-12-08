@@ -25,10 +25,8 @@
 .blog-header-logo:hover {
   text-decoration: none;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  /*font-family:"Joan", sans-serif;*/
-  /*font-family: "Playfair Display", Georgia, "Times New Roman", serif!*rtl:Amiri, Georgia, "Times New Roman", serif*!;*/
+.blog-post h1, h2, h3, h4{
+  font-family: "Carter One";
 }
 
 .display-4 {
@@ -204,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
   height:300px
 }
 .selected-card{
-  height:500px;
+  height:550px;
   font-family: "Comic Sans MS";
 }
 .selected-card h2{
@@ -267,4 +265,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 .section-title{
   font-family: "Joti One";
+}
+.project-headimg{
+  height: 400px;
+  width: 100%;
+}
+.blog-post{
+  font-family: "Arial"
+}
+.btn-back{
+  border-color: dodgerblue;
+  color: dodgerblue;
 }
