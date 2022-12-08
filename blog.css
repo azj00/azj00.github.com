@@ -280,3 +280,15 @@
 .color-blue{
   color: dodgerblue;
 }
+.project-intro{
+  font-size: 20px;
+  font-weight: bold;
+}
+.project-odd{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,243,243,0.9976365546218487) 44%, rgba(255,255,255,1) 100%);
+}
+.project-even{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(243,253,255,0.9976365546218487) 44%, rgba(255,255,255,1) 100%);
+}

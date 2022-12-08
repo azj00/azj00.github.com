@@ -40,7 +40,7 @@
 </nav>
 <!--    end nav bar  -->
 <body>
-<img class="d-none d-md-block project-headimg" src="assets/brand/picka_cover.png">
+<img class="d-none d-md-block project-headimg" src="assets/inclass/cover.jpg">
 <main class="container mt-5 pt-5">
             <article class="blog-post col-xl-10">
                 <h2 class="blog-post-title">UIUX Projects Done in Class</h2>
@@ -48,39 +48,75 @@
                 <p class="mb-5"></p>
                 <h4 class="pt-5" id="overview">Overview</h4>
                 <hr>
-                <p style="font-size: 18px">All the designs are done less than a week or in 30 mins. These small projects
+                <p class="pb-5" style="font-size: 18px">All the designs are done less than a week or in 30 mins. These small projects
                  helps me practice design thinking and prototyping skills.</p>
-                <h4 id="project1" class="pt-5">Project 1: BrownHeat</h4>
-                <p>Prompt: App Design and Lo-fi Prototyping in 1 hr</p>
-                <p>Skills: Problem Statement, ideation, and lo-fi prototyping with Balsamiq</p>
+
+                <div class="project-odd">
+                    <h4 id="project1" >A/B Testing: The Nest Bakery</h4>
+                    <hr>
+                    <b class="pt-3 project-intro">About the project: </b>
+                    <ul>
+                        <li>Created 2 versions of a single page bakery home page</li>
+                        <li>Randomly presented users one version</li>
+                        <li>Analyzed eye-tracking data and test hypothesis</li>
+                    </ul>
+                    <b class="pt-3 project-intro">Hypothesis:</b>
+                    <ul>
+                        <li>B is better than A</li>
+                        <li>Users will be confused with the checkout process in version A</li>
+                        <li>Users' thinking process will be interrupted by the bakery information in version A</li>
+                    </ul>
+                    <b class="pt-3 project-intro">Testing Instruction:</b>
+                    <p>Imagine you are in a bakery shop. You have enough money to buy 2 desserts to treat yourself. Please pick the items and proceed to checkout with your eyes. </p>
+                    <b class="mt-3 project-intro">Two Versions:</b>
+                    <img class="mt-2" src="assets/inclass/abtesting.png" width="100%">
+                    <b class="pt-3 project-intro">Result Analysis</b>
+                    <p>
+                        No, our results did not match our expectations. For version 1 we expected that there would be more confusion around the
+                        checkout process, so the replay would show more back and forth movement of the eyes tracking along the screen compared
+                        to version 2, but that was not the case. We also thought that the heat map would be more distributed and less concentrated
+                        on version 1, but that was not the case either. Version 2 actually showed more variable eye movement while version 1 had more
+                        concentrated eye movement.
+                    </p>
+                    <p class="pb-5">
+                        Note: because two different people tested on two different versions, the variation would be great so it wouldn’t be a fair
+                        judgement since two people can go through the checkout process very differently.
+                    </p>
+                </div>
+
+                <div class="project-even">
+                    <h4 id="project2">Ideation: BrownHeat</h4>
+                    <hr>
+                    <b class="pt-5 project-intro">About the project:</b>
+                    <p class="pb-2">App Design and Lo-fi Prototyping in 1 hr</p>
+                    <b class="pt-5 project-intro">Problem Statement:</b>
+                    <p>Students at Brown struggle to know if a space on campus (i.e: dinning
+                    halls, gym, the main green, etc) is busy or not.</p>
+                    <ul class="pb-3">
+                        <li>How might we allow students to view live data about campus building usage?</li>
+                        <li>How might we allow students to plan optimal times to visit campus buildings? </li>
+                    </ul>
+                    <b class=" project-intro">User Group:</b>
+                    <p>Brown University Students and Faculty</p>
+
+                    <p class="pt-3 project-intro">Persona:</p>
+                    <img src="assets/inclass/persona_1.png"width="50%" >
+
+                    <p class="pt-5 project-intro">Prototype:</p>
+                    <img class="pb-5" src="assets/inclass/lo-fi_1.png" width="50%">
+                </div>
+
+                <div class="project-odd">
+                <h4 id="project3" class="pt-5">Prototyping: Netflex for Food</h4>
                 <hr>
-                <p><b>Problem Statement</b>: Students at Brown struggle to know if a space on campus (i.e: dinning
-                 halls, gym, the main green, etc) is busy or not.</p>
-                <div class="d-inline-flex justify-content-around">
-                    <p>1. How might we allow students to view live data about campus building usage?</p>
-                    <p>2. How might we allow students to plan optimal times to visit campus buildings? </p>
-                </div>
-                <p><b>User Group</b>: Brown University Students and Faculty</p>
-                <div class="d-flex justify-content-between mb-2">
-                    <p ><b>Persona</b>:</p>
-                    <img src="assets/inclass/persona_1.png"  width="60%">
-                    <p></p>
-                </div>
-                <div class="d-flex justify-content-between mb-5">
-                    <p ><b>Lo-fi</b>:</p>
-                    <img src="assets/inclass/lo-fi_1.png"  width="50%">
-                    <p></p>
-                </div>
-                <h4 id="project2" class="pt-5">Project 2: Netflex for Food</h4>
-                <p>Prompt: Finish a Hi-fi prototype for an imaginary mobile app in 30 min</p>
-                <p>Skills: Hi-fi Prototyping with Figma</p>
-                <hr>
-                <p><b>Product</b>: Netflex for food</p>
+                    <b class="pt-5 project-intro">Prompt:</b>
+                    <p>Finish a Hi-fi prototype for an imaginary mobile app in 30 min</p>
+                    <p class="pt-3 project-intro">Final Product: Netflex for food</p>
                 <div class="d-flex justify-content-between mb-5">
                     <img src="assets/inclass/mockup2.png"  width="45%">
                     <img src="assets/inclass/prototype2.png"  width="50%">
                 </div>
-                <h4 id="project3" class="pt-5">Project 3: A/B Testing</h4>
+                </div>
                 <br>
                 <a class="mt-5 btn btn-back" href="index.html">← All Projects</a>
             </article>
@@ -93,9 +129,9 @@
             <div class="mb-0 comicsans">
                 <ol>
                     <a href="#overview"><li>Overview</li></a>
-                    <a href="#project1"><li>Project 1</li></a>
-                    <a href="#project2"><li>Project 2</li></a>
-                    <a href="#project3"><li>Project 3</li></a>
+                    <a href="#project1"><li>AB Testing</li></a>
+                    <a href="#project2"><li>Ideation</li></a>
+                    <a href="#project3"><li>Prototyping</li></a>
                 </ol>
             </div>
         </div>
