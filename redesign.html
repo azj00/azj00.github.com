@@ -63,40 +63,75 @@
                 <p class="blog-post-meta">Fall 2022</p>
                 <h3 class="pt-5"id="overview">Overview</h3>
                 <hr>
+
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <ul>
-                            <li>Redesigned and built a website for a small business.</li>
-                            <li>What I learned: <b>analyze and identify flaws in an existing interface, create low-fidelity and high-fidelity prototypes for various screen sizes, code in HTML with Bootstrap5</b></li>
-                            <li>Tools: <b>Balsamiq</b> for lo-fi and <b>Figma</b> for hi-fi prototype. <b>Bootstrap 5</b> for implementation</li>
-                            <li>Scope: School Project</li>
-                            <li>Timeline: 1 week, 2022 Fall</li>
-                        </ul>
+
+                        <div class=" project-intro">Project Brief:</div>
+                        <li>Redesigned and built a website for a small business.</li>
+
+                        <div class="mt-3 project-intro">Tools</div>
+                        <li><b>Balsamiq</b> for lo-fi</li>
+                        <li><b>Figma</b> for hi-fi prototype</li>
+                        <li><b>Bootstrap 5</b> for implementation</li>
+
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/project_pic/redesign.png" width="100%">
+                        <div class="mt-3 project-intro">What I learned:</div>
+                        <li>analyze and identify flaws in an existing interface</li>
+                        <li>create prototypes for various screen sizes</li>
+                        <li>code in HTML with Bootstrap5</li>
+
+                        <div class="mt-3 project-intro">Scope</div>
+                        <li>School Project</li>
+                        <li>Solo work</li>
+                        <li>1 week, 2022 Fall</li>
                     </div>
                 </div>
-                <h4 class="pt-5" id="issuesummary">The Web</h4>
+                <h4 class="pt-5" id="issuesummary">Why Yakima Theater?</h4>
                 <hr>
+                <div class="my-3 project-intro">If you’re a small business, your website has a big impact on your success!</div>
                 <p>The website I have chosen to redesign is Yakima Theatre's official website. Yakima Theatres is a family-owned
                     chain of movie theaters in Washington state. The theater has been there since 1912 and
                     survived the pandemic. It is my favourite movie theater to visit whenever I am in the area.
                     They have a great staff and nice environment but their website is unattractive and poorly designed.
                     I believe their business could profit from a redesigned website.
-                    <a href="i">Link to the web</a></p>
-                <div class="d-flex justify-content-between mb-3">
-                    <img src="assets/hw2/web.png" width="45%">
-                    <img src="assets/hw2/web1.png" width="45%">
-                </div>
-                <div class="d-flex justify-content-between mb-4">
-                    <img src="assets/hw2/web2.png" width="45%">
-                    <img src="assets/hw2/web3.png" width="45%">
+                    <a href="https://yakimatheatres.com">Link to the web</a></p>
+<!--                <div class="d-flex justify-content-between mb-3">-->
+<!--                    <img src="assets/hw2/web.png" width="45%">-->
+<!--                    <img src="assets/hw2/web1.png" width="45%">-->
+<!--                </div>-->
+<!--                <div class="d-flex justify-content-between mb-4">-->
+<!--                    <img src="assets/hw2/web2.png" width="45%">-->
+<!--                    <img src="assets/hw2/web3.png" width="45%">-->
+<!--                </div>-->
+
+                <h4 class="pt-5" id="problem">Problems</h4>
+                <hr>
+                <div class="my-3 project-intro">Major problems:</div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="assets/hw2/yakimaweb.png" width="100%">
+                    </div>
+                    <div class="col-md-7">
+                        <ol>
+                            <li>Navigation bar took too much space on the page</li>
+                            <li>Sign in button and social media logo are placed in unconventional locations</li>
+                            <li>Some information on the right hand side are not important</li>
+                            <li>It's unclear to a first time users that they have 3 locations</li>
+                            <li>The colors do not have strong contrast with each other</li>
+                        </ol>
+                    </div>
+
                 </div>
 
-                <h4 class="pt-5" id="problem">Problem</h4>
-                <hr>
-                <h6>Visual</h6>
+                <button class="btn btn-primary mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#breakdown" aria-expanded="false" aria-controls="breakdown">
+                    Click to see the Detailed Breakdown
+                </button>
+
+<!--                <div class="my-3 project-intro">Detailed Breakdown:</div>-->
+                <div class="collapse" id="breakdown">
+                <h5 class="mt-3">Visual</h5>
                 <img src="assets/hw2/web.png" width="60%">
                 <ol>
                     <li>Their logo on the top banner uses so much space that users must scroll down to view any content.</li>
@@ -108,7 +143,7 @@
                         It is hard to see words written in the yellow color.</li>
                     <li>The information on the right hand side uses too much space.</li>
                 </ol>
-                <h6>Usability, Learnability and etc</h6>
+                <h5>Usability, Learnability and etc</h5>
                 <ol>
                     <li>There are three different locations for Yakima Theatres but each has a different name. A first-time user
                         may not understand what each one is. </li>
@@ -121,14 +156,16 @@
                     <li>The purpose of the "Theater Info" section is not clear. Users would likely expect to find locations, pictures
                         of the theaters, and other such content, but the page only contains rules and instructions for purchasing tickets.</li>
                 </ol>
+                </div>
 
-                <h4 class="pt-5" id="acce">Accessibility</h4>
+                <h4 class="pt-5" id="acce">WAVE: A Web Accessibility Evaluation Tool</h4>
                 <hr>
                 <div class="d-inline-flex justify-content-around mb-4">
-                    <img src="assets/hw2/ass.png" width="30%">
+                    <img src="assets/hw2/ass.png" width="15%">
                     <ul>
-                        <p>I agree to most of its findings. I found some same errors in the previous section. WAVE also
-                            helps me find some errors or warnings I didn't notice earlier.</p>
+                        <p>To better understand the website's problem, I use WAVE to test the accessibility.
+                            I agree to most of its findings. Some same errors are already identified in the previous section.
+                            WAVE helps me find 1 errors and 1 warning I didn't notice earlier.</p>
                         <li>Missing first level heading on their home page</li>
                         <li>Redundant link in email sign-up section</li>
                         <br>
@@ -138,16 +175,22 @@
                     </ul>
                 </div>
 
-                <h4 class="pt-5" id="lofi">Lo-Fidelity Prototype</h4>
+                <h4 class="pt-5" id="lofi">Solving problems in my Low-Fidelity Prototype</h4>
                 <hr>
-                <p>After finding all the problems on the landing page, I built the low-fidelity prototype to solve them.
-                    The annotations are my design choices.</p>
-                <p>Lo-fi for Desktop Layout:</p>
+                <img src="assets/hw2/lofi-sum.jpg" width="100%">
+
+                <button class="btn btn-primary mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#detailedlofi" aria-expanded="false" aria-controls="detailedlofi">
+                    Click to see the Detailed Low-Fidelity Prototype
+                </button>
+
+                <div class="collapse" id="detailedlofi">
+                <p class="mt-3">Lo-fi for Desktop Layout:</p>
                 <img src="assets/hw2/desktopview.png" width="100%">
                 <p>Lo-fi for Mobile Layout:</p>
                 <img src="assets/hw2/mobile.png" width="100%">
                 <p>Lo-fi for Tablet Layout:</p>
                 <img class="pb-5" src="assets/hw2/tablet.png" width="100%">
+                </div>
 
                 <h4 class="pt-5" id="visual">Visual Design Guide</h4>
                 <hr>
@@ -168,8 +211,14 @@
                     <a href="yakima.html">Click me</a> Or copy link here: https://azj00.github.io/yakima.html</p>
 
                 <p>(You can click on the large "Yakima Theater" heading to exit)</p>
-                <br>
-                <p>Known Error: It takes time for the server to respond. Do not refresh or resize the screen too quickly
+
+                <button class="btn btn-primary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#errordetails" aria-expanded="false" aria-controls="errordetails">
+                    If you run into errors opening the web, you can see screenshots here!
+                </button>
+
+                <div class="collapse" id="errordetails">
+
+                <p class="mt-3">Known Error: It takes time for the server to respond. Do not refresh or resize the screen too quickly
                     or large blank space between the navbar and the main content will appear. View on Chrome for the best
                     user experience.</p>
                 <p>Local Host Desktop View (Chrome)</p>
@@ -178,6 +227,7 @@
                 <img class="py-3" src="assets/hw2/localtablet.png" width="50%">
                 <p>Responsive Check: mobile (Chrome-iphone XR)</p>
                 <img class="py-3" src="assets/hw2/localmobile.png" width="50%">
+                </div>
 
                 <h4 class="pt-5" id="code">Code Snippets</h4>
                 <hr>
