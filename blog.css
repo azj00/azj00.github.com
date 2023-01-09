@@ -29,7 +29,7 @@
 .blog-header-logo:hover {
   text-decoration: none;
 }
-.blog-post h1, h2, h3, h4, h5{
+.blog-post h1, h2, h3, h4, h5, div{
   font-family: "Roboto";
 }
 .bodycontainer{
