@@ -3,31 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Bootstrap and me">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Ji's Design World</title>
+    <title>Ji Zhang</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
-
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Comic+Neue">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Joan">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One">
-<!--      for github linkedin etc icons -->
-      <script src="https://kit.fontawesome.com/188a1ecbd0.js" crossorigin="anonymous" async></script>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
+<!-- for github linkedin etc icons -->
+    <script src="https://kit.fontawesome.com/188a1ecbd0.js" crossorigin="anonymous" async></script>
     <!-- Bootstrap core CSS -->
-<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
   </head>
   <body>
 
   <!--  nav bar  -->
-  <nav class="navbar navbar-light bg-white">
+  <nav class="navbar navbar-light sticky-top bg-light shadow-sm">
       <div class="container-fluid px-5">
           <a class="navbar-brand" href="index.html">
               <img src="assets/brand/brand_jz2.png" width="80vw" height="100%" alt="" title="">
@@ -42,165 +32,112 @@
   </nav>
   <!--    end nav bar  -->
 
-<div class="container bodycontainer">
+
+<div class="container bg-white pb-5">
 
 <!--    start self introduction -->
-    <h1 class="pt-5 blog-post-title text-start">Hi, I'm Ji (Anna) Zhang</h1>
-    <div class="row">
-        <div class="col-sm">
+    <div class="row py-5">
+        <div class="col-sm d-block my-auto">
+            <h1 class=" blog-post-title text-start">Hi, I'm Ji (Anna) Zhang</h1>
             <br>
-            <p class="self-intro1" >I reason my design with empathy and pseudocode.</p>
+            <p class="self-intro1" >I design and develop.</p>
             <p class=""> I'm an M.S. Computer Science
                 student @Brown University with a passion about designing impactful apps from the perspective of a developer.
             </p>
 
-
-            <div class="d-flex">
-                <a class="smsetting far fa-file-alt fa-lg pb-2 text-decoration-none text-dark" href="assets/brand/anna_res.pdf" target="_blank" > /</a>
-                <a class="smsetting fab fa-linkedin-in fa-lg pb-2 text-decoration-none text-dark" href="https://www.linkedin.com/in/anna-ji-zhang/" target="_blank" > /</a>
-                <a class="smsetting fab fa-github fa-lg pb-2 text-decoration-none text-dark" title="GitHub" href="https://github.com/kimonazj" target="_blank" > </a>
+            <div class="d-flex mt-4">
+                <a type="button" href="#selectwork" class="btn btn-dark text-center px-5 shadow"style=" margin-right: 20px; border-radius: 20px;">Work</a>
+                <a type="button" href="about.html" class="btn btn-outline-dark text-center px-5 shadow" style="border-radius: 20px;">About</a>
             </div>
+<!--            <div class="d-flex mt-5">-->
+<!--                <a class="smsetting far fa-file-alt fa-lg pb-2 text-decoration-none text-dark" href="assets/brand/anna_res.pdf" target="_blank" > /</a>-->
+<!--                <a class="smsetting fab fa-linkedin-in fa-lg pb-2 text-decoration-none text-dark" href="https://www.linkedin.com/in/anna-ji-zhang/" target="_blank" > /</a>-->
+<!--                <a class="smsetting fab fa-github fa-lg pb-2 text-decoration-none text-dark" title="GitHub" href="https://github.com/kimonazj" target="_blank" > </a>-->
+<!--            </div>-->
+
         </div>
         <div class="col-sm">
-            <img src="assets/brand/brand_jz.png" width="100%">
+            <img src="assets/brand/brand_jz.png" width="100%" height="100%">
         </div>
     </div>
+    <img src="assets/icons/scroll.png" class="d-block" height="30px" style="margin-top: 100px;">
 <!--    end self introduction-->
 
 <!--    start Selected work-->
-    <h3 class="my-5 section-title">Selected Work 💙</h3>
-    <div class="row justify-content-around">
-        <div class="col-md-6">
-            <div class="card selected-card toko-card justify-content-center border-0" >
-                <img src="assets/project_pic/toko_cover.jpg" class="card-img-top selected-img" alt="...">
-                <div class="card-body text-center" >
-                    <h2 class="mb-0">Toko</h2>
-                    <p class="pt-1">Inspired the startup to add a new feature in our redesign</p>
-                    <a href="toko.html" class="text-secondary stretched-link text-decoration-none">Iterative Design, Figma Component Creation, Collaboration</a>
+    <div id="selectwork" >
+        <h3 class="my-5 section-title">Selected Work 🖤</h3>
+        <div class="my-5 mx-5">
+            <div class="card selected-card toko-card justify-content-center border-5 shadow-lg" >
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div class="card-body text-center " >
+                            <h2 class="mb-0">Toko</h2>
+                            <p class="pt-1">Inspired the startup to add a new feature in our redesign</p>
+                            <a href="toko.html" class="text-secondary stretched-link text-decoration-none">UIUX, Iterative Design, Figma Component Creation, Collaboration</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/project_pic/toko_cover.jpg" class=""height="100%" width="100%" alt="...">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="card selected-card elephant-card justify-content-center border-0" >
-                <img src="assets/project_pic/ele_cover.jpg" class="card-img-top selected-img" alt="...">
-                <div class="card-body text-center" >
-                    <h2 class="mb-0">Elephant Edu</h2>
-                    <p class="pt-1">A basis for a much-needed sexual health educational app in China</p>
-                    <a href="elephantedu.html" class="text-secondary stretched-link text-decoration-none">User Research, Personas, Ideation, Visual Design, Prototyping</a>
+
+        <div class="my-5 mx-5">
+            <div class="card selected-card yakima-card justify-content-center border-5 shadow-lg" >
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div class="card-body text-center " >
+                            <h2 class="mb-0">Yakima Theater</h2>
+                            <p class="pt-1">Improve the responsiveness of the web with my HTML and CSS magic</p>
+                            <a href="redesign.html" class="text-secondary stretched-link text-decoration-none">Identify Usability Problems, Problem-Solving, Prototyping, Bootstrap5</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/project_pic/yakima_cover.jpg" class=""height="100%" width="100%" alt="...">
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row justify-content-around">
-        <div class="col-md-6">
-            <div class="card selected-card yakima-card justify-content-center border-0" >
-                <img src="assets/project_pic/yakima_cover.jpg" class="card-img-top selected-img" alt="...">
-                <div class="card-body text-center">
-                    <h2 class="mb-0">Yakima Theater</h2>
-                    <p class="pt-1">Improve the responsiveness of the web with my HTML and CSS magic</p>
-                    <a href="redesign.html" class="text-secondary stretched-link text-decoration-none">Identify Usability Problems, Problem-Solving, Prototyping, Bootstrap5</a>
+
+        <div class="my-5 mx-5">
+            <div class="card selected-card elephant-card justify-content-center border-5 shadow-lg" >
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div class="card-body text-center " >
+                            <h2 class="mb-0">Elephant Edu</h2>
+                            <p class="pt-1">A basis for a much-needed sexual health educational app in China</p>
+                            <a href="elephantedu.html" class="text-secondary stretched-link text-decoration-none">User Research, Personas, Ideation, Visual Design, Prototyping</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/project_pic/ele_cover.jpg" class=""height="100%" width="100%" alt="...">
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
-            <div class="card selected-card pika-card justify-content-center border-0" >
-                <img src="assets/picka/cover.png" class="card-img-top selected-img" alt="...">
-                <div class="card-body text-center" >
-                    <h2 class="mb-0">PickaCourse</h2>
-                    <p class="pt-1">The missing social media for college students</p>
-                    <a href="pickacourse.html" class="text-secondary stretched-link text-decoration-none">API Calls, React, Antdesign</a>
+
+        <div class="my-5 mx-5">
+            <div class="card selected-card pika-card justify-content-center border-5 shadow-lg" >
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div class="card-body text-center " >
+                            <h2 class="mb-0">PickaCourse</h2>
+                            <p class="pt-1">The missing social media for college students</p>
+                            <a href="pickacourse.html" class="text-secondary stretched-link text-decoration-none">API Calls, React, Antdesign</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/picka/cover.png" class=""height="100%" width="100%" alt="...">
+                    </div>
                 </div>
             </div>
         </div>
+
     </div>
 
 </div>
 
-
-<main class="container mt-5">
-    <h5 class="text-start section-title">What I’ve been up to… 💁🏻‍♀️💻✨</h5>
-
-                  <h4 class="py-3 comicsans">Web and Mobile App Development in React, Svelte, Javascript and etc</h4>
-                  <div class="row">
-                      <div class="col-sm-4">
-                          <div class="card all-card border-0" >
-                              <img class="card-img-top" src="assets/project_pic/bakery_cover.png" alt="Card1 image">
-                              <div class="card-body">
-                                  <h5 class="card-title">MyBakery</h5>
-                                  <p class="card-text">A React app of a bakery shop. </p>
-                                  <a href="mybakery.html" class="text-secondary stretched-link text-decoration-none">React, Antdesign</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-sm-4">
-                          <div class="card all-card border-0" >
-                              <img class="card-img-top" src="assets/project_pic/calendar_cover.png" alt="Card2 image">
-                              <div class="card-body">
-                                  <h5 class="card-title">MyCalendar</h5>
-                                  <p class="card-text">A web scheduling application. </p>
-                                  <a href="calendar.html" class="text-secondary stretched-link text-decoration-none">API calls, React</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-sm-4 pb-2">
-                          <div class="card all-card border-0" >
-                              <img class="card-img-top" src="assets/project_pic/android_cover.png" alt="Card2 image">
-                              <div class="card-body">
-                                  <h5 class="card-title">Android Apps</h5>
-                                  <p class="card-text">Android apps built in Java and Android Studio.</p>
-                                  <a href="https://github.com/kimonazj/android-app" class="text-secondary stretched-link text-decoration-none">View source code in Github</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                    <div class="row">
-                        <div class="d-none col-sm-4 pb-2">
-                            <div class="card all-card border-0" >
-                                <img class="card-img-top" src="assets/project_pic/portfolio.png" alt="Card2 image">
-                                <div class="card-body">
-                                    <h5 class="card-title">Portfolio Building</h5>
-                                    <p class="card-text">Designed and built personal websites.</p>
-                                    <a href="portfoliodesign.html" class="text-secondary stretched-link text-decoration-none">JavaScript, HTML, Bootstrap5</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="d-none col-sm-4">
-                            <div class="card all-card border-0" >
-                                <img class="card-img-top" src="assets/project_pic/cdl_cover.png" alt="Card2 image">
-                                <div class="card-body">
-                                    <h5 class="card-title">CDL Frontend Engineer</h5>
-                                    <p class="card-text">Visualize lobbying data in the U.S.</p>
-                                    <a href="cdl.html" class="text-secondary stretched-link text-decoration-none"> Svelte, TailwindCss</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                  <br>
-                  <h4 class="py-3 comicsans">Problem-solving with Figma and Balsamiq</h4>
-                  <div class="row">
-                      <div class="col-sm-4 pb-2">
-                          <div class="card all-card border-0">
-                              <img class="card-img-top" src="assets/project_pic/uiux_cover.png" alt="Card3 image">
-                              <div class="card-body">
-                                  <h5 class="card-title">Small Design Challenges</h5>
-                                  <p class="card-text">Some practice designs for CS1300 UIUX class</p>
-                                  <a href="uiuxsmall.html" class="text-secondary stretched-link text-decoration-none">Ideation, A/B testing</a>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-sm-4 pb-2">
-                          <div class="card all-card border-0">
-                              <img class="card-img-top" src="assets/fitrec/fitrec_lofi.png" alt="Card4 image">
-                              <div class="card-body">
-                                  <h5 class="card-title">BU FitRec</h5>
-                                  <p class="card-text">Improve BU gym with Balsamiq. </p>
-                                  <a href="fitrec.html" class="text-secondary stretched-link text-decoration-none">Problem Solving, Feature Design</a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-</main>
 
 <!-- footer start -->
 <footer class="blog-footer mt-5">
