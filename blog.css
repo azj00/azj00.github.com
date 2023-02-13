@@ -236,6 +236,12 @@
 .toko-card:hover{
   color: deepskyblue;
 }
+.popcard{
+  transition: transform .5s;
+}
+.popcard:hover{
+  transform: scale(1.1);
+}
 .pika-card:hover{
   color:rebeccapurple;
 }
