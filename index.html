@@ -26,12 +26,44 @@
               <a class="navbar-brand " href="index.html">Work</a>
               <a class="navbar-brand text-secondary" href="play.html">Play</a>
               <a class="navbar-brand text-secondary" href="about.html">About</a>
-              <a class="navbar-brand text-secondary" href="assets/brand/anna_res.pdf" target="_blank">Resume</a>
+              <a class="navbar-brand text-secondary"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Resume</a>
           </div>
       </div>
   </nav>
   <!--    end nav bar  -->
-
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop"  data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Click on a resume to view</h1>
+<!--                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+              </div>
+              <div class="modal-body">
+                  <div class="row">
+                      <div class="col">
+                          <a href="assets/brand/anna_ux.pdf" target="_blank">
+                          <img src="assets/brand/ux-brand.png" width="100%" height="80%"></a>
+                          <a class="d-block text-center text-decoration-none text-secondary" href="assets/brand/anna_res.pdf" target="_blank"> UX Resume</a>
+                      </div>
+                      <div class="col">
+                          <a href="assets/brand/anna_py.pdf" target="_blank">
+                              <img src="assets/brand/eng-brand.png" width="100%" height="80%"></a>
+                          <a class="d-block text-center text-decoration-none text-secondary" href="assets/brand/anna_res.pdf" target="_blank"> Engineer Resume</a>
+                      </div>
+                      <div class="col">
+                          <a href="assets/brand/anna_pm.pdf" target="_blank">
+                              <img src="assets/brand/pm-brand.png" width="100%" height="80%"></a>
+                          <a class="d-block text-center text-decoration-none text-secondary" href="assets/brand/anna_pm.pdf" target="_blank">PM Resume</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
 
 <div class="container bg-white pb-5">
 
@@ -49,6 +81,17 @@
                 <a type="button" href="#selectwork" class="btn btn-dark text-center px-5 shadow"style=" margin-right: 20px; border-radius: 20px;">Work</a>
                 <a type="button" href="about.html" class="btn btn-outline-dark text-center px-5 shadow" style="border-radius: 20px;">About</a>
             </div>
+<!--            <div class="row pt-5">-->
+<!--                <div class="col-3">-->
+<!--                    <img src="assets/brand/ux-brand.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <img src="assets/brand/eng-brand.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--                <div class="col-3">-->
+<!--                    <img src="assets/brand/pm-brand.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--            </div>-->
 <!--            <div class="d-flex mt-5">-->
 <!--                <a class="smsetting far fa-file-alt fa-lg pb-2 text-decoration-none text-dark" href="assets/brand/anna_res.pdf" target="_blank" > /</a>-->
 <!--                <a class="smsetting fab fa-linkedin-in fa-lg pb-2 text-decoration-none text-dark" href="https://www.linkedin.com/in/anna-ji-zhang/" target="_blank" > /</a>-->
@@ -57,6 +100,22 @@
 
         </div>
         <div class="col-sm">
+<!--            <div class="row">-->
+<!--                <div class="col">-->
+<!--                    <img src="assets/brand/ux-brand.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--                <div class="col">-->
+<!--                    <img src="assets/brand/eng-brand.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="row">-->
+<!--                <div class="col">-->
+<!--                    <img src="assets/brand/pm-brand.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--                <div class="col">-->
+<!--                    <img src="assets/brand/brand_jz3.png" width="100%" height="100%">-->
+<!--                </div>-->
+<!--            </div>-->
             <img src="assets/brand/brand_jz3.png" width="100%" height="100%">
         </div>
     </div>
@@ -66,6 +125,23 @@
 <!--    start Selected work-->
     <div id="selectwork" >
         <h3 class="my-5 text-center section-title">Selected Work 🖤</h3>
+        <div class="my-5 mx-5 px-5">
+            <div class="card popcard selected-card earthly-card justify-content-center border-5 shadow-lg" >
+                <div class="row">
+                    <div class="col-md-6 my-auto">
+                        <div class="card-body text-center " >
+                            <h2 class="mb-0">Earthly</h2>
+                            <p class="pt-1">Increased company conversion rate with my design</p>
+                            <a href="earthly.html" class="text-secondary stretched-link text-decoration-none">Intern, UIUX, Frontend Engineer, Marketing</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/project_pic/earthly_cover.jpg" class=""height="100%" width="100%" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="my-5 mx-5 px-5">
             <div class="card popcard selected-card toko-card justify-content-center border-5 shadow-lg" >
                 <div class="row">
@@ -145,11 +221,10 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="pb-3 pb-md-0 text-start">
-                    <p class="comicsans ">
-                        Hi, I'm <a class="jotione text-decoration-none" href="about.html">Ji (Anna) Zhang</a>, a UIUX designer + frontend engineer.
-                        I design by pushing the limit of technology.
-                    </p>
-                    <a class="text-decoration-none pt-5" href="assets/brand/anna_res.pdf"> View my resume → </a>
+                    <h3>
+                        Nice to see you here!
+                    </h3>
+                    <a class="text-decoration-none pt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> View my resume → </a>
                 </div>
             </div>
             <hr class="d-block d-md-none ">

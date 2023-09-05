@@ -147,7 +147,7 @@
  */
 .blog-footer {
   padding: 3rem 0;
-  color: white;
+  color: #E5E5E5;
   text-align: center;
   background-color: #1b1c1c;
   border-top: .05rem solid #e5e5e5;
@@ -156,7 +156,7 @@
   color: white;
 }
 .blog-footer a, span{
-  color: deepskyblue;
+  color: #DADEE3;
 }
 .blog-footer h6{
   font-family: "Prompt";
@@ -235,6 +235,9 @@
 }
 .toko-card:hover{
   color: deepskyblue;
+}
+.earthly-card:hover{
+  color: forestgreen;
 }
 .popcard{
   transition: transform .5s;
