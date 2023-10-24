@@ -5,16 +5,21 @@
 /*.container img:hover{*/
 /*  transform: scale(1.5);*/
 /*}*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Mulish:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Prompt:regular,bold,italic&subset=latin,latin-ext');
 .blog-header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
 }
 
 .blog-header-logo {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-  font-size: 2.25rem;
+  /*font-family: "Playfair Display", Georgia, "Times New Roman", serif!*rtl:Amiri, Georgia, "Times New Roman", serif*!;*/
+  font-family:"Mulish", sans-serif;
+  font-size: 13rem;
   text-decoration: none;
 }
+
 @media (max-width: 768px) {
   .blog-header-logo {
     font-size: 1.3rem;
@@ -24,9 +29,14 @@
 .blog-header-logo:hover {
   text-decoration: none;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+.blog-post h1, h2, h3, h4, h5, div{
+  font-family: "Roboto";
+}
+.bodycontainer{
+  color: #373838;
+}
+.blog-post h4{
+  color: dodgerblue;
 }
 
 .display-4 {
@@ -124,7 +134,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .blog-post-title {
   margin-bottom: .25rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-family:"Prompt", sans-serif;
 }
 .blog-post-meta {
   margin-bottom: 1.25rem;
@@ -135,11 +146,22 @@ h1, h2, h3, h4, h5, h6 {
  * Footer
  */
 .blog-footer {
-  padding: 2.5rem 0;
-  color: #727272;
+  padding: 3rem 0;
+  color: #E5E5E5;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #1b1c1c;
   border-top: .05rem solid #e5e5e5;
+}
+.blog-footer container{
+  color: white;
+}
+.blog-footer a, span{
+  color: #DADEE3;
+}
+.blog-footer h6{
+  font-family: "Prompt";
+  font-size: 20px;
+  font-weight: bold;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
@@ -189,7 +211,106 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1;
   }
 }
+.selected-img{
+  height:300px
+}
+.selected-card{
+
+  font-family: "Roboto";
+}
+.selected-card h2{
+  font-family: "Prompt"
+}
+.selected-card p{
+  font-size: 18px
+}
+.selected-card a{
+  font-size: 15px
+}
+.yakima-card:hover{
+  color: royalblue;
+}
+.elephant-card:hover{
+  color: #FFA450;
+}
+.toko-card:hover{
+  color: deepskyblue;
+}
+.earthly-card:hover{
+  color: forestgreen;
+}
+.popcard{
+  transition: transform .5s;
+}
+.popcard:hover{
+  transform: scale(1.1);
+}
+.pika-card:hover{
+  color:rebeccapurple;
+}
 
 .other_projects i{
-  color: black;
+  color: #373838;
+}
+.all-card{
+  height: 350px;
+  font-family: "Roboto";
+}
+.all-card a{
+  font-family: "Mulish"
+}
+.all-card img{
+  height: 200px
+}
+.all-card:hover{
+  font-weight: bold;
+}
+.self-intro1{
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+.jotione{
+  font-family: "Prompt"
+}
+.comicsans{
+  font-family: "Roboto"
+}
+.joan{
+  font-family: "Mulish"
+}
+.navbar-brand{
+  font-family:"Prompt"
+}
+.navbar-brand:hover{
+  text-decoration: underline;
+}
+.section-title{
+  font-family: "Prompt";
+}
+.project-headimg{
+  height: 100%;
+  width: 100%;
+}
+.blog-post{
+  font-family: "Roboto"
+}
+.btn-back{
+  border-color: dodgerblue;
+  color: dodgerblue;
+}
+.color-blue{
+  color: dodgerblue;
+}
+.project-intro{
+  font-size: 20px;
+  font-weight: bold;
+}
+.project-odd{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,243,243,0.9976365546218487) 44%, rgba(255,255,255,1) 100%);
+}
+.project-even{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(243,253,255,0.9976365546218487) 44%, rgba(255,255,255,1) 100%);
 }

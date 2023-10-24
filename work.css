@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Mulish:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Prompt:regular,bold,italic&subset=latin,latin-ext');
+
+.project-section-number{
+    font-weight: bold;
+    color: #4F77AA;
+    font-size: 16px;
+}
+.project-section-title{
+    font-weight: bold;
+    color: #323232;
+    font-size: 25px;
+}
+.content-heading{
+    font-weight: bold;
+    color: #4F77AA;
+    font-size: 16px;
+}
+.content{
+    color:#323232;
+    font-size: 18px;
+    font-family:"Roboto", sans-serif;
+}
+.container-fluid{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    overflow: hidden;
+}

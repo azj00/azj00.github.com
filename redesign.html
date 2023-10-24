@@ -8,6 +8,8 @@
     <meta name="generator" content="Hugo 0.84.0">
     <title>Responsive Redesign</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Joti+One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One">
     <!--      for github linkedin etc icons -->
     <script src="https://kit.fontawesome.com/188a1ecbd0.js" crossorigin="anonymous" async></script>
 
@@ -36,121 +38,104 @@
     <!-- Custom styles for this template -->
     <link href="blog.css" rel="stylesheet">
 </head>
+<!--  nav bar  -->
+<nav class="navbar sticky-top navbar-light bg-white">
+    <div class="container-fluid px-xs-2 px-md-5">
+        <a class="navbar-brand d-none d-md-block" href="index.html">
+            <img src="assets/brand/brand_jz.png" width="80vw" height="100%" alt="" title="">
+        </a>
+        <div class="justify-content-end">
+            <a class="navbar-brand text-secondary" href="index.html">Work</a>
+            <a class="navbar-brand text-secondary" href="play.html">Play</a>
+            <a class="navbar-brand text-secondary" href="about.html">About</a>
+            <a class="navbar-brand text-secondary" href="assets/brand/anna_res.pdf" target="_blank">Resume</a>
+        </div>
+    </div>
+</nav>
+<!--    end nav bar  -->
 <body>
+<!--project cover image -->
+<img class="d-none d-md-block project-headimg" src="assets/brand/yakima_cover.png">
 
-<div class="container">
-    <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-            <div class="col-4 pt-1">
-                <!--    left    logo -->
-                <a class="navbar-brand" href="https://kimonazj.github.io/">
-                    <img src="assets/brand/brand_jz2.png" width="80vw" height="100%" alt="" title="Back to my main personal website">
-                </a>
-            </div>
-            <div class="col-4 text-center">
-                <a class="blog-header-logo text-dark" href="index.html">Ji's Design World</a>
-            </div>
-            <div class="col-4 d-flex justify-content-end align-items-center">
-                <!--     right   logo -->
-                <a class="navbar-brand" href="">
-                    <img src="assets/brand/brand_jz.png" width="80vw" height="100%" alt="" title="">
-                </a>
-            </div>
-        </div>
-    </header>
-
-    <!--    start nav bar for each section  -->
-    <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#devdesign" role="button" aria-expanded="false" aria-controls="devdesign">Dev&Design</a>
-            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#design" role="button" aria-expanded="false" aria-controls="design">Design</a>
-            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#dev" role="button" aria-expanded="false" aria-controls="dev">Dev</a>
-            <a class="p-2 link-secondary" data-bs-toggle="collapse" href="#other" role="button" aria-expanded="false" aria-controls="other">Other</a>
-        </nav>
-    </div>
-    <div class="row row-cols-1 row-cols-md-4">
-        <div class="col">
-            <div class="collapse multi-collapse" id="devdesign">
-                <div class="card card-body">
-                    <a class="p-2 link-info" href="redesign.html">Responsive Redesign</a>
-                    <a class="p-2 link-secondary" href="">CDL Frontend Developer</a>
-                    <a class="p-2 link-info" href="https://github.com/kimonazj/android-app">Android Apps</a>
-                    <a class="p-2 link-info" href="portfoliodesign.html">Portfolio</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="collapse multi-collapse" id="design">
-                <div class="card card-body">
-                    <a class="p-2 link-info" href="elephantedu.html">Elephant Edu</a>
-                    <a class="p-2 link-info" href="fitrec.html">BU Fitrec</a>
-                    <a class="p-2 link-secondary" href="">Toko App</a>
-                    <a class="p-2 link-info" href="uiuxsmall.html">Design Challenges</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="collapse multi-collapse" id="dev">
-                <div class="card card-body">
-                    <a class="p-2 link-info" href="pickacourse.html">PikaCourse</a>
-                    <a class="p-2 link-info" href="calendar.html">Calendar Frontend Dev</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="collapse multi-collapse" id="other">
-                <div class="card card-body">
-                    <a class="p-2 link-info" href="hibyemom.html">Hi Bye Mom</a>
-                    <a class="p-2 link-secondary" href="">Art Works</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--    end of nav bar for each section -->
-</div>
-
-<main class="container">
-
-    <div class="row g-5">
-        <div class="col-md-8">
-            <article class="blog-post">
+<main class="container mt-5 pt-5">
+            <article class="blog-post col-xl-10">
                 <h2 class=" blog-post-title">Redesign for Yakima Theater</h2>
                 <p class="blog-post-meta">Fall 2022</p>
                 <h4 class="pt-5"id="overview">Overview</h4>
                 <hr>
+
                 <div class="row g-3">
                     <div class="col-md-6">
-                        <ul>
-                            <li>Redesigned and built a website for a small business.</li>
-                            <li>What I learned: <b>analyze and identify flaws in an existing interface, create low-fidelity and high-fidelity prototypes for various screen sizes, code in HTML with Bootstrap5</b></li>
-                            <li>Tools: <b>Balsamiq</b> for lo-fi and <b>Figma</b> for hi-fi prototype. <b>Bootstrap 5</b> for implementation</li>
-                            <li>Timeline: 1 week, 2022 Fall</li>
-                        </ul>
+
+                        <div class="mt-3 project-intro">Project Brief:</div>
+                        <li>Redesigned and built a website for a small business.</li>
+
+                        <div class="mt-3 project-intro">Outcome:</div>
+                        <li>The original: <a href="https://yakimatheatres.com/" target="_blank">yaimatheatres.com</a></li>
+                        <li>My design: <a href="https://azj00.github.io/yakima.html" target="">azj00.github.io/yakima.html</a></li>
+
+                        <div class="mt-3 project-intro">Tools</div>
+                        <li><b>Balsamiq</b> for lo-fi</li>
+                        <li><b>Figma</b> for hi-fi prototype</li>
+                        <li><b>Bootstrap 5</b> for implementation</li>
+
                     </div>
                     <div class="col-md-6">
-                        <img src="assets/project_pic/redesign.png" width="100%">
+                        <div class="mt-3 project-intro">What I learned:</div>
+                        <li>analyze and identify flaws in an existing interface</li>
+                        <li>create prototypes for various screen sizes</li>
+                        <li>code in HTML with Bootstrap5</li>
+
+                        <div class="mt-3 project-intro">Scope</div>
+                        <li>School Project</li>
+                        <li>Solo work</li>
+                        <li>1 week, 2022 Fall</li>
                     </div>
                 </div>
-                <h4 class="pt-5" id="issuesummary">The Web</h4>
+                <h4 class="pt-5" id="issuesummary">Why Yakima Theater?</h4>
                 <hr>
+                <div class="my-3 project-intro">If you’re a small business, your website has a big impact on your success!</div>
                 <p>The website I have chosen to redesign is Yakima Theatre's official website. Yakima Theatres is a family-owned
                     chain of movie theaters in Washington state. The theater has been there since 1912 and
                     survived the pandemic. It is my favourite movie theater to visit whenever I am in the area.
                     They have a great staff and nice environment but their website is unattractive and poorly designed.
                     I believe their business could profit from a redesigned website.
-                    <a href="i">Link to the web</a></p>
-                <div class="d-flex justify-content-between mb-3">
-                    <img src="assets/hw2/web.png" width="45%">
-                    <img src="assets/hw2/web1.png" width="45%">
-                </div>
-                <div class="d-flex justify-content-between mb-4">
-                    <img src="assets/hw2/web2.png" width="45%">
-                    <img src="assets/hw2/web3.png" width="45%">
+                    <a href="https://yakimatheatres.com">Link to the web</a></p>
+<!--                <div class="d-flex justify-content-between mb-3">-->
+<!--                    <img src="assets/hw2/web.png" width="45%">-->
+<!--                    <img src="assets/hw2/web1.png" width="45%">-->
+<!--                </div>-->
+<!--                <div class="d-flex justify-content-between mb-4">-->
+<!--                    <img src="assets/hw2/web2.png" width="45%">-->
+<!--                    <img src="assets/hw2/web3.png" width="45%">-->
+<!--                </div>-->
+
+                <h4 class="pt-5" id="problem">Problems</h4>
+                <hr>
+                <div class="my-3 project-intro">Major issues:</div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="assets/hw2/yakimaweb.png" width="100%">
+                    </div>
+                    <div class="col-md-7">
+                        <ol>
+                            <li>Navigation bar took too much space on the page</li>
+                            <li>Sign in button and social media logo are placed in unconventional locations</li>
+                            <li>Some information on the right hand side are not important</li>
+                            <li>It's unclear to a first time users that they have 3 locations</li>
+                            <li>The colors do not have strong contrast with each other</li>
+                        </ol>
+                    </div>
+
                 </div>
 
-                <h4 class="pt-5" id="problem">Problem</h4>
-                <hr>
-                <h6>Visual</h6>
+                <button class="btn btn-outline-secondary mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#breakdown" aria-expanded="false" aria-controls="breakdown">
+                    Detailed Breakdown ▾
+                </button>
+
+<!--                <div class="my-3 project-intro">Detailed Breakdown:</div>-->
+                <div class="collapse" id="breakdown">
+                <h5 class="mt-3">Visual</h5>
                 <img src="assets/hw2/web.png" width="60%">
                 <ol>
                     <li>Their logo on the top banner uses so much space that users must scroll down to view any content.</li>
@@ -162,7 +147,7 @@
                         It is hard to see words written in the yellow color.</li>
                     <li>The information on the right hand side uses too much space.</li>
                 </ol>
-                <h6>Usability, Learnability and etc</h6>
+                <h5>Usability, Learnability and etc</h5>
                 <ol>
                     <li>There are three different locations for Yakima Theatres but each has a different name. A first-time user
                         may not understand what each one is. </li>
@@ -175,14 +160,16 @@
                     <li>The purpose of the "Theater Info" section is not clear. Users would likely expect to find locations, pictures
                         of the theaters, and other such content, but the page only contains rules and instructions for purchasing tickets.</li>
                 </ol>
+                </div>
 
-                <h4 class="pt-5" id="acce">Accessibility</h4>
+                <h4 class="pt-5" id="acce">WAVE: A Web Accessibility Evaluation Tool</h4>
                 <hr>
                 <div class="d-inline-flex justify-content-around mb-4">
-                    <img src="assets/hw2/ass.png" width="30%">
+                    <img src="assets/hw2/ass.png" width="15%">
                     <ul>
-                        <p>I agree to most of its findings. I found some same errors in the previous section. WAVE also
-                            helps me find some errors or warnings I didn't notice earlier.</p>
+                        <p>To better understand the website's problem, I use WAVE to test the accessibility.
+                            I agree to most of its findings. Some same errors are already identified in the previous section.
+                            WAVE helps me find 1 errors and 1 warning I didn't notice earlier.</p>
                         <li>Missing first level heading on their home page</li>
                         <li>Redundant link in email sign-up section</li>
                         <br>
@@ -192,16 +179,22 @@
                     </ul>
                 </div>
 
-                <h4 class="pt-5" id="lofi">Lo-Fidelity Prototype</h4>
+                <h4 class="pt-5" id="lofi">Solving problems in my Low-Fidelity Prototype</h4>
                 <hr>
-                <p>After finding all the problems on the landing page, I built the low-fidelity prototype to solve them.
-                    The annotations are my design choices.</p>
-                <p>Lo-fi for Desktop Layout:</p>
+                <img src="assets/hw2/lofi-sum.jpg" width="100%">
+
+                <button class="btn btn-outline-secondary mt-5" type="button" data-bs-toggle="collapse" data-bs-target="#detailedlofi" aria-expanded="false" aria-controls="detailedlofi">
+                    Detailed Low-Fidelity Prototype ▾
+                </button>
+
+                <div class="collapse" id="detailedlofi">
+                <p class="mt-3">Lo-fi for Desktop Layout:</p>
                 <img src="assets/hw2/desktopview.png" width="100%">
                 <p>Lo-fi for Mobile Layout:</p>
                 <img src="assets/hw2/mobile.png" width="100%">
                 <p>Lo-fi for Tablet Layout:</p>
                 <img class="pb-5" src="assets/hw2/tablet.png" width="100%">
+                </div>
 
                 <h4 class="pt-5" id="visual">Visual Design Guide</h4>
                 <hr>
@@ -222,8 +215,14 @@
                     <a href="yakima.html">Click me</a> Or copy link here: https://azj00.github.io/yakima.html</p>
 
                 <p>(You can click on the large "Yakima Theater" heading to exit)</p>
-                <br>
-                <p>Known Error: It takes time for the server to respond. Do not refresh or resize the screen too quickly
+
+                <button class="btn btn-outline-secondary mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#errordetails" aria-expanded="false" aria-controls="errordetails">
+                    If you run into errors opening the web, you can see screenshots here!
+                </button>
+
+                <div class="collapse" id="errordetails">
+
+                <p class="mt-3">Known Error: It takes time for the server to respond. Do not refresh or resize the screen too quickly
                     or large blank space between the navbar and the main content will appear. View on Chrome for the best
                     user experience.</p>
                 <p>Local Host Desktop View (Chrome)</p>
@@ -232,76 +231,104 @@
                 <img class="py-3" src="assets/hw2/localtablet.png" width="50%">
                 <p>Responsive Check: mobile (Chrome-iphone XR)</p>
                 <img class="py-3" src="assets/hw2/localmobile.png" width="50%">
+                </div>
 
                 <h4 class="pt-5" id="code">Code Snippets</h4>
                 <hr>
                 <p>Movie card implementation</p>
                 <img class="pb-5" src="assets/hw2/card_code.png" width="80%">
-                <p>Header implementation with responsive behavior to all screen sizes</p>
+                <button class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#codemore" aria-expanded="false" aria-controls="codemore">
+                    If you are interested, there are more!
+                </button>
+
+                <div class="collapse" id="codemore">
+                <p class="mt-3">Header implementation with responsive behavior to all screen sizes</p>
                 <img class="pb-2" src="assets/hw2/header_code.png" width="80%">
                 <img class="pb-3" src="assets/hw2/header_css.png" width="80%">
+                </div>
 
                 <h4 class="pt-5" id="conclusion">Conclusion & Takeaways</h4>
                 <hr>
-                <p>From this project, I learned that it's really important to do user testing before launching the product.
-                I found it easier to find the flaws in the app-flow and usability problems when I'm a user. Even though designers
-                designed the interface in users' shoes, it's still hard to make it perfect. </p>
-                <p>I also found it helpful to think about what code I should use when I make my hi-fi prototype.
-                    With my css notes on hi-fi, I was able to develop my code quick and neat. </p>
+                <div class="project-intro my-3">1. for (User testing + Redesign) {return: Success!}</div>
+                <p>From this project, I learned that it's really important to do user testing even after launching the product.
+                    There are some features that may be useful in the past but not anymore nowadays.
+                    For example, the printing out movie schedule feature was useful when Internet was not common.
+                    However, as the Internet is fully developed, people can just go on the website anywhere anytime.
+                    They don't really need the print feature on the main page.
+                </p>
+                <p>
+                    I also found it easier to find the flaws in the app-flow and usability problems when I'm a user.
+                    Even though designers designed the interface in users' shoes, it's still hard to make it perfect.
+                </p>
+                <div class="project-intro my-3">2. CSS + Hi-fi = Big Time Saver!</div>
+                <p>It was a big time saver to think about what code I should use when I make my hi-fi prototype.
+                    With my CSS notes on hi-fi, I was able to develop my code quick and neat. </p>
 
-
+                <a class="mt-5 btn btn-back" href="index.html">← All Projects</a>
             </article>
 
-        </div>
 
-        <div class="col-md-4">
-            <div class="position-sticky" style="top: 2rem;">
-                <div class="p-4 mb-3 bg-light rounded">
-                    <h4 class="fst-italic">Design Process</h4>
-                    <div class="mb-0">
-                        <ol>
-                            <a href="#overview"><li>Overview</li></a>
-                            <a href="#issuesummary"><li>The Web</li></a>
-                            <a href="#problem"><li>Problem</li></a>
-                            <a href="#acce"><li>Accessibility</li></a>
-                            <a href="#lofi"><li>Lo-fi Prototype</li></a>
-                            <a href="#visual"><li>Visual Design Guide</li></a>
-                            <a href="#hifi"><li>Hi-fi Prototype</li></a>
-                            <a href="#redesign"><li>Responsive Webpage</li></a>
-                            <a href="#code"><li>Code Snippets</li></a>
-                        </ol>
+            <div class="d-none d-xl-block position-fixed" style="top: 25%; right:0rem">
+                <div class="p-4 mb-3 bg-white rounded border">
+                    <h5 class="fst-italic comicsans">Design Process</h5>
+                    <div class="mb-0 comicsans">
+                        <ul>
+                            <a class="text-decoration-none text-secondary" href="#overview"><li>Overview</li></a>
+                            <a class="text-decoration-none text-secondary" href="#issuesummary"><li>The Web</li></a>
+                            <a class="text-decoration-none text-secondary" href="#problem"><li>Problem</li></a>
+                            <a class="text-decoration-none text-secondary" href="#acce"><li>Accessibility</li></a>
+                            <a class="text-decoration-none text-secondary" href="#lofi"><li>Lo-fi Prototype</li></a>
+                            <a class="text-decoration-none text-secondary" href="#visual"><li>Visual Design Guide</li></a>
+                            <a class="text-decoration-none text-secondary" href="#hifi"><li>Hi-fi Prototype</li></a>
+                            <a class="text-decoration-none text-secondary" href="#redesign"><li>Responsive Webpage</li></a>
+                            <a class="text-decoration-none text-secondary" href="#code"><li>Code Snippets</li></a>
+                            <a class="text-decoration-none text-secondary" href="#conclusion"><li>Conclusion</li></a>
+                        </ul>
                     </div>
                 </div>
-                <div class="p-4">
-                    <h4 class="fst-italic">Other Projects</h4>
-                    <ol class="list-unstyled other_projects">
-                        <li><i class='far fa-star'></i><a href="elephantedu.html">ElephantEdu (UI/UX)</a></li>
-                        <li><i class='far fa-star'></i><a href="pickacourse.html">PikaCourse (Frontend)</a></li>
-                        <li><i class='far fa-star'></i><a href="fitrec.html">BU Fitrec</a></li>
-                    </ol>
-                </div>
 
-                <div class="p-4">
-                    <h4 class="fst-italic">Let's Get Connected</h4>
-                    <ol class="list-unstyled">
-                        <li><a class="smsetting far fa-file-alt fa-lg pb-2" href="assets/brand/anna_res.pdf" target="_blank" style="text-decoration: none;"> Resume</a></li>
-                        <li><a class="smsetting fab fa-linkedin-in fa-lg pb-2" href="https://www.linkedin.com/in/anna-ji-zhang/" target="_blank" style="text-decoration: none; "> LinkedIn </a></li>
-                        <li><a class="smsetting fab fa-github fa-lg pb-2" title="GitHub" href="https://github.com/kimonazj" target="_blank" style="text-decoration: none; "> GitHub</a> </li>
-                        <li><a class="smsetting fab fa-fort-awesome fa-lg" title="Website" href="https://kimonazj.github.io/" target="_blank" style="text-decoration: none;"> MainPersonalWebsite</a> </li>
-                    </ol>
-                </div>
             </div>
-        </div>
-    </div>
+
 
 </main>
 
-<footer class="blog-footer">
-    <p>Built with Love. Copy right reserved.</p>
-    <p>
-        <a href="index.html">Back to home</a>
-    </p>
+<!-- footer start -->
+<footer class="blog-footer mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="pb-3 pb-md-0 text-start">
+                    <h3>
+                        Nice to see you here!
+                    </h3>
+                    <a class="text-decoration-none pt-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> View my resume → </a>
+                </div>
+            </div>
+            <hr class="d-block d-md-none ">
+            <div class="col-md-4 pb-3 pb-md-0">
+                <div class="text-center">
+                    <h6>Stay Connected</h6>
+                    <a class="text-decoration-none" href="mailto:ji_zhang@brown.edu?subject=Hey Anna I Want to Connect With You!">Email me!</a>
+                    <br>
+                    <a class="text-decoration-none" href="https://www.linkedin.com/in/anna-ji-zhang/" target="_blank">My LinkedIn</a>
+                    <br>
+                    <a class="text-decoration-none" href="https://github.com/kimonazj" target="_blank">Github</a>
+                </div>
+            </div>
+            <hr class="d-block d-md-none ">
+            <div class="col-md-4">
+                <div class="text-center">
+                    <h6>Featured Projects</h6>
+                    <a class="text-decoration-none" href="redesign.html">Earthly</a>
+                    <br>
+                    <a class="text-decoration-none" href="elephantedu.html">Toko</a>
+                </div>
+            </div>
+        </div>
+        <p class="mt-5 pt-2 comicsans text-start">Ⓒ Made with 💙 by Ji Zhang</p>
+    </div>
 </footer>
+<!--  footer ends -->
 <!--for carousel-->
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 

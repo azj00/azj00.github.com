@@ -72,11 +72,12 @@
 }
 .card-btn{
     color:#FFFDFD;
-    background-color: #0C0946;
+    /*background-color: #0C0946;*/
+    background-color: #1C1B2F;
 }
 .blog-header {
     line-height: 1;
-    border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid black;
 }
 .foot-text{
     font-size: 12px;
@@ -190,7 +191,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
 }
 .diagonal-gradient {
-    background: linear-gradient(to bottom right, #0C0946 60%, #A3895B) fixed;
+    /*background: linear-gradient(to bottom right, #0C0946 60%, #A3895B) fixed;*/
+    background: linear-gradient(to bottom right, #1C1B2F 30%, #59586F) fixed;;
 }
 .color-white{
     color:white;
@@ -201,7 +203,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #35327B;
 }
 .bg-prime-dark{
-    background-color: #0C0946;
+    /*background-color: #0C0946;*/
+    background-color: #1C1B2F;
+
 }
 .card{
     background-color: rgba(255, 253, 253, 0.22);
